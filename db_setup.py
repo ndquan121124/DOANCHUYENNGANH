@@ -4,11 +4,11 @@ from flask_bcrypt import Bcrypt
 
 # Cấu hình cơ sở dữ liệu
 DB_CONFIG = {
-    'host': 'localhost',
-    'port': 3306,
+    'host': 'reseau.proxy.rlwy.net',
+    'port': 36804,
     'user': 'root',
-    'password': 'quanpropk11', 
-    'database': 'thuoc'
+    'password': 'QDkNOboPjGSuMhwSaemMVSRxAPIDxnUZ', 
+    'database': 'railway'
 }
 
 def get_db_connection():
